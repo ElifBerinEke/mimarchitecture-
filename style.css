@@ -1,0 +1,271 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:10px;
+    padding:10px;
+    background-color:#3d3a3a; 
+    font-family: 'PT Serif', serif;
+}
+
+#container{
+    width:80%;
+    margin:auto;
+    height:auto;
+    
+}
+
+header{
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+
+#logo{
+    width: 15%;
+    height:200px; 
+    margin-left: 625px;
+    border-radius: 50%;
+}
+
+section{
+    width: 93%;
+    height: auto;
+    margin-left:50px;
+    margin-top: 100px;
+    background-color:whitesmoke;
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul li{
+    float:left;
+    list-style-type: none;
+    font-size: 20px;
+}
+    
+    nav ul {
+        position:absolute;
+        left:330px;
+
+    }
+    
+    nav ul li a{
+    text-decoration: none;
+    padding:20px;
+    display:block;
+    color:whitesmoke;  
+    background-color: rgb(10, 37, 37);
+    }
+    
+    nav ul li a:hover {
+    text-decoration: none;
+    color:black;
+    background:rgb(143, 15, 15);
+    }
+
+main{
+    height: auto;
+    width: 100%;
+    padding: 15px;
+    margin-right: 15px;
+}
+
+.icerik{
+    width: 80%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.rsm{
+width: 40%;
+height: 40%;
+float: left;
+margin: 10px;
+}
+
+.rsm2{
+width: 40%;
+height: 40%;
+margin: 10px;
+}
+
+#social{
+    color:whitesmoke;
+    margin-left: 80%;
+}
+
+h1{
+    text-align: center;
+    background-color:rgb(10,37,37);
+    color: whitesmoke;
+    height: 50px;
+    line-height: 50px;
+}
+
+.yazilar{
+    margin-right: 15px;
+    font-size: 15px;
+    text-indent: 30px;
+}
+
+#autocad{
+    
+    width: 50%;
+    height: 50%;
+    float:left;
+    padding:0 10px 10px 0;
+}
+
+#revit{
+    width: 50%;
+    height: 50%;
+    float:right;
+    padding:0 0 10px 10px;
+}
+ 
+#lumion{
+    width: 50%;
+    height: 50%;
+    float:left;
+    padding:0 10px 10px 0;
+}
+#max{
+    width: 50%;
+    height: 50%; 
+    float:right;
+    padding:0 0 10px 10px;
+}
+
+#paragraf{
+    width: 900px;
+    margin: auto; 
+}
+
+#kariyer1{
+    width: 40%;
+    height: 40%;
+    float:left;
+    padding:0 10px 10px 0;
+}
+
+#kariyer2{
+    width: 40%;
+    height: 40%; 
+    float:right;
+    padding:0 0 10px 10px;
+}
+
+#kariyer3{
+    width: 40%;
+    height: 40%;
+    float:left;
+    padding:0 10px 10px 0;
+}
+
+#kariyer4{
+    width: 40%;
+    height: 40%; 
+    float:right;
+    padding:0 0 10px 10px;
+}
+
+
+@media screen and (max-width: 1024px){
+
+    #logo{
+        width:100%;
+        height:200px;
+        margin-left:0px;
+    }
+
+   nav ul{
+    position: absolute;
+    z-index: 2;
+    top: 210px;
+    left: 0px;
+    width: 100%;
+    background-color:rgb(10,37,37);
+    margin:0;
+    padding:0;
+
+   }
+   nav ul li{
+       float:none;
+   }
+    section{
+        margin-top:350px;
+        margin-left:10px;
+    }
+   
+    .rsm{
+        float:none;
+        width:100%;
+        height:200px;
+    }
+    .rsm2{
+        float:none;
+        width:100%;
+        height:200px;
+    }
+    #social {
+        margin-left:0px;
+    }
+
+    #paragraf{
+        width: 100%;
+    }
+        .rsm3{
+            float:none;
+            width:100%;
+            height:200px;
+        }
+        .rsm4{
+            float:none;
+            width:100%;
+            height:200px;
+        }
+
+        .rsm5{
+            float:none;
+            width:100%;
+            height:200px;
+        }
+        .rsm6{
+            float:none;
+            width:100%;
+            height:200px;
+        }
+
+        .rsm7{
+            float:none;
+            width:100%;
+            height:200px;
+        }
+        .rsm8{
+            float:none;
+            width:100%;
+            height:200px;
+        }
+
+        .rsm9{
+            float:none;
+            width:100%;
+            height:200px;
+        }
+        .rsm10{
+            float:none;
+            width:100%;
+            height:200px;
+        }
+    
+        #harita{ 
+            float:none;
+            width:100%;
+            height:200px;
+}
+
+}
